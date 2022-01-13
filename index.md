@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+# Кодування та декодування повідомлень
 
-You can use the [editor on GitHub](https://github.com/sonchezZZZ/TeoryInformatics/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Аналоговий і цифровий способи подання інформації
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Щоб повідомлення можна було обробити за допомогою електронної апаратури (у тому числі комп'ютера), його перетворюють в електричний сигнал. 
+Електричний сигнал звичайно можна подати як залежність напруги від часу, тобто як функцію U(t).
 
-### Markdown
+![image](https://user-images.githubusercontent.com/79608549/149404377-a8c614ce-6700-4868-a872-eaa25d26730d.png)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+Сигнали бувають неперервними (аналоговими) або дискретними (імпульсними). Неперервний сигнал U(t) описується функцією, що плавно змінюється у часі. На мал. така функція показана суцільною жирною лінією. Прикладами неперервних сигналів можуть бути електричний сигнал від мікрофона, напруга живлення в електромережі, сигнал, підведений до звукових колонок, тощо.
+Дискретні сигнали описуються функцією U(t), яка у певні моменти часу змінюється стрибкоподібно. На мал. показано функцію дискретного сигналу, вона є послідовністю прямокутних імпульсів і на вигляд нагадує стовпчики діаграми.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sonchezZZZ/TeoryInformatics/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Відповідно до видів сигналів розрізняють два способи подання інформації:
+-  аналоговий - за допомогою неперервних сигналів. Прикладами аналогових способів передачі сигналу є людська мова, радіо, звукозапис на магнітні стрічки тощо;
+-  цифровий - за допомогою дискретних сигналів. Найяскравішим прикладом дискретного способу зображення інформації є обчислювальні процеси у комп'ютерах.
